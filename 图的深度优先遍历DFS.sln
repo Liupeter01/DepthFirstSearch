@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图的深度优先遍历DFS(matrix)", "图的深度优先遍历DFS\图的深度优先遍历DFS.vcxproj", "{168E4559-2881-47BD-839F-786AD0A21C09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图的深度优先遍历DFS(adjacency list)", "图的深度优先遍历DFS(adjacency list)\图的深度优先遍历DFS(adjacency list).vcxproj", "{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Debug|x64.ActiveCfg = Debug|x64
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Debug|x64.Build.0 = Debug|x64
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Debug|x86.ActiveCfg = Debug|Win32
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Debug|x86.Build.0 = Debug|Win32
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Release|x64.ActiveCfg = Release|x64
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Release|x64.Build.0 = Release|x64
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Release|x86.ActiveCfg = Release|Win32
+		{168E4559-2881-47BD-839F-786AD0A21C09}.Release|x86.Build.0 = Release|Win32
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Debug|x64.ActiveCfg = Debug|x64
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Debug|x64.Build.0 = Debug|x64
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Debug|x86.Build.0 = Debug|Win32
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Release|x64.ActiveCfg = Release|x64
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Release|x64.Build.0 = Release|x64
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Release|x86.ActiveCfg = Release|Win32
+		{4BC8D207-7709-42E0-82D7-E2BBA6C2DC8A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8C36105-B0E7-4E7D-8CFC-A067E3F52F95}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="深度优先遍历">
+      <UniqueIdentifier>{cf35545c-d9d9-4db2-8d19-b69336fc6ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="深度优先遍历\源文件">
+      <UniqueIdentifier>{c69d7a80-ad5d-4344-8115-72366f59581a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="深度优先遍历\头文件">
+      <UniqueIdentifier>{4b61236e-10a5-4cf9-84f7-a869a892d3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图的基本数据结构%28矩阵%29">
+      <UniqueIdentifier>{12f28033-7f90-4868-b73b-7d041efd118e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图的基本数据结构%28矩阵%29\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="图的基本数据结构%28矩阵%29\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="栈的数据结构">
+      <UniqueIdentifier>{e6515977-bf1e-457e-9b4f-405f7160f26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构\源文件">
+      <UniqueIdentifier>{e012e38d-8086-49d7-a2bd-8784b2f7fec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构\头文件">
+      <UniqueIdentifier>{fe0fe8ec-b253-4545-930e-e4c34d006881}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>图的基本数据结构%28矩阵%29\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MGraph.c">
+      <Filter>图的基本数据结构%28矩阵%29\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectedEdge.c">
+      <Filter>图的基本数据结构%28矩阵%29\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnDirectedEdge.c">
+      <Filter>图的基本数据结构%28矩阵%29\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.c">
+      <Filter>深度优先遍历\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkStack.c">
+      <Filter>栈的数据结构\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MGraph.h">
+      <Filter>图的基本数据结构%28矩阵%29\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectedEdge.h">
+      <Filter>图的基本数据结构%28矩阵%29\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnDirectedEdge.h">
+      <Filter>图的基本数据结构%28矩阵%29\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS.h">
+      <Filter>深度优先遍历\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStack.h">
+      <Filter>栈的数据结构\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
