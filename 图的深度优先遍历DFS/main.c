@@ -9,11 +9,11 @@ int main()
           InitGraph(&Graph);         //初始化
 
           /*顶点列表批量添加*/
-          VertexType arr[] = { "ABCDEFGH" };
+          VertexType arr[] = { "ABCDEFGHIJKLM" };         //顶点数组集合V(G)
           CreateBatchVertex(&Graph, arr, NORMALGRAPH);      //顶点列表批量添加
 
-          VertexType arr1[] = "AABBDECCF";
-          VertexType arr2[] = "BCDEHHFGG";
+          VertexType arr1[] = "AAAABLLJDGGGH";
+          VertexType arr2[] = "BCFLMJMMEHIKK";
 
           for (size_t i = 0; i < strlen(arr1); ++i)
           {
