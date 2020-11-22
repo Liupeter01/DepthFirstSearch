@@ -16,9 +16,14 @@ void DFSTraverse(MGraph G, VertexType V)		  //DFS深度优先遍历函数
           BOOL* visit = NULL; //创建辅助数组
           InitVisitArray(G, &visit);					  //初始化辅助数组
 
+#ifndef STACK		//如果使用栈则自动开启
+          Recursive_DFS(G, visit, V);
+#endif //不使用模拟栈默认开启递归
+
 #ifdef STACK		//如果使用栈则自动开启
           LinkStack stack;	  //栈
           InitLinkStack(&stack);
+          DFS(G, stack, visit, V);		  //模拟栈
 #endif // 判断是否预定义了模拟栈
 
           for (int i = 0; i < G.vexnum; ++i)				//解决非连通图的问题

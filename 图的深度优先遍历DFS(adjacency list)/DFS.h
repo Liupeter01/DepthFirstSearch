@@ -2,7 +2,7 @@
 #include"ALGraph.h"
 #include"LinkStack.h"		  //链式栈
 
-//#define STACK				  //使用栈
+#define STACK				  //使用栈
 
 void InitVisit(ALGraph G, BOOL** visit);			  //初始化DFS算法辅助数组
 void DestroyVisitArray(BOOL* visit);			  //DFS算法辅助数组的销毁

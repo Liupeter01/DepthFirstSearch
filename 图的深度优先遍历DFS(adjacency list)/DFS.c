@@ -17,6 +17,10 @@ void DFSTraverse(ALGraph G, VertexType V)		  //DFS深度优先遍历函数
 		  BOOL* visit = NULL; //创建辅助数组
 		  InitVisit(G, &visit);					  //初始化辅助数组
 
+#ifndef STACK
+		  Recursive_DFS(G, visit, V);		//先遍历一次
+#endif //不使用模拟栈默认开启递归
+
 #ifdef STACK		//如果使用栈则自动开启
 		  LinkStack stack;	  //栈
 		  InitLinkStack(&stack);

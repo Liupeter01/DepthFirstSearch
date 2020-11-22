@@ -2,7 +2,6 @@
 #include"MGraph.h"
 #include"LinkStack.h"
 
-
 //#define STACK				  //使用栈
 
 void InitVisitArray(MGraph G, BOOL** visit);			  //初始化DFS算法辅助数组
