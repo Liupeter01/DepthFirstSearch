@@ -21,7 +21,7 @@ int main()
           }
 
           DisplayGraph(Graph);          //图的输出
-          DFSTraverse(Graph, 'D');                //DFS
+          DFSTraverse(Graph, 'A');                //DFS
 
           DestroyGraph(&Graph);         //图的销毁
           return 0;
